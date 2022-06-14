@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@300&display=swap');
+body{
+    font-family: 'Open Sans', 'Roboto';
+    background-color: black ;
+    background-image: url(../img/Cinza\ Desfocado\ Fundo\ Terra\ Hora\ Instagram\ Post\ \(1\).png);
+    background-size: cover;
+    background-position: left;
+}
+@media screen and (max-width: 425px) {
+    body{
+        background-image: none;
+    }
+}
+
+header{
+    position: absolute;
+    
+    width: 100%;
+    height: 213px;
+    left: 0px;
+    top: 0px;
+    background-color: rgb(12, 12, 12);   
+}
+@media screen and (max-width: 425px) {
+    header{
+        width: 96%;
+        position: absolute;
+    }
+}
+.Logo{
+    box-sizing: border-box;
+    position: absolute;
+    width: 200px;
+    height: 130px;
+    left: 205px;
+    top: 36px;
+    border-radius: 20px;
+}
+@media screen and (max-width: 425px)  {
+    .Logo {
+        left: 2px;
+    }
+}
+a{
+   text-decoration: none; 
+}
+ul{
+    color: white;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 20px;
+    position: absolute;
+    left: 27%;
+    top: 40px;
+}
+@media screen and (max-width: 425px) {
+ul{
+        left: 18%;
+        top: -10px;
+        color: rgb(12, 12, 12);
+        visibility: hidden;
+        flex-direction: column-reverse;
+        pointer-events: none;
+    }
+}
+@media screen and (max-width: 425px) {
+    .Barras{
+        visibility: visible;
+        font-size: 80px;
+        padding-left: 50px;
+        pointer-events: initial;
+    }
+}
+li{
+    margin: 35px;
+    font-size: 20px;
+    margin-left: 90px;
+}
+nav ul li a{
+    color: white;
+}
+h1{
+    display: flex;
+    justify-content: center ;
+    position: absolute; 
+    color: white;
+}
+#Curiosidades{
+    font-size: 80px;
+    top: 234px;
+    left: 25%;
+    background-color: black;
+}
+@media screen and (max-width: 425px) {
+    #Curiosidades {
+        top: 250px;
+        left: 18%;
+        font-size: xx-large;
+    }
+}
+.Locais{
+    font-size: 58px;
+    top: 978px;
+    left: 23%;
+    background-color: black;
+}
+@media screen and (max-width:425px) {
+    .Locais{
+        top: 2014px;
+        left: 1%;
+        font-size: xx-large;
+    }
+}
+
+.Cidades{
+    max-width: 435px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-left: 38%;
+    padding-top: 400px;
+}
+@media screen and (max-width: 425px) {
+    .Cidades{
+        flex-direction: column;
+        padding-left: 0%;
+    }
+}
+.BH{
+    width: 400px;
+    height: 534px;
+    margin: 20px;
+    border-radius: 20px;
+    
+}
+@media screen and (max-width: 425px) {
+    .BH {
+        margin: 0px;
+    }
+}
+.OuroPreto{ 
+    width: 400px;
+    height: 534px;
+    margin: 20px;
+    border-radius: 20px;
+}
+@media screen and (max-width: 425px) {
+    .OuroPreto {
+        margin: 0px;
+    }
+}
+.Tiradentes{
+    width: 400px;
+    height: 534px;
+    margin: 20px;    
+    border-radius: 20px;
+}
+@media screen and (max-width: 425px) {
+    .Tiradentes {
+        margin: 0px;
+    }
+}
+#Video{
+    padding-left: 33%;
+    padding-top: 150px;
+}
+@media screen and (max-width: 425px) {
+    #Video{
+        padding-left: 0%;
+        width: 100%;
+    }
+}
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+@media screen and (max-width: 425px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        padding-left: 3%;
+    }
+}
+h2{
+    font-size: 200%;
+}
+.Nome1{
+    left: 11%;
+    background-color: black;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 844px;
+    border-radius: 5px;
+}
+.Nome1:hover {
+    padding: 24px 97px;
+    background-color: var(black);
+    transition: padding 0.6s;
+}
+@media screen and (max-width: 425px) {
+    .Nome1{
+    top: 827px;
+    left: auto;
+}
+
+}
+.Nome2{
+    background-color: black;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 844px;
+    left: 39%;
+    border-radius: 5px;
+}
+.Nome2:hover {
+    padding: 24px 123px;
+    background-color: var(black);
+    transition: padding 0.6s;
+}
+@media screen and (max-width: 425px) {
+    .Nome2{
+        left: 0;
+        top: 1363px;
+    }
+}
+
+.Nome3{
+    background-color: black;
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 844px;
+    left: 67%;
+    border-radius: 5px;
+}
+.Nome3:hover {
+    
+    padding: 24px 125px;
+    background-color: var(black);
+    transition: padding 0.6s;
+}
+@media screen and (max-width: 425px) {
+    .Nome3{
+        top: 1903px;
+        left: auto;
+    }
+}
+.Linkedin:hover{
+    animation: rotacao 0.45s linear both;
+}
+
+@media screen and (max-width: 425px) {
+    .Linkedin {
+        padding-left: 25px;
+    }
+}
+.Github:hover{
+    animation: rotacao 0.45s linear both;
+}
+@media screen and (max-width:425px) {
+    .Github{
+        padding-left: 12%;
+    }
+}
+@keyframes rotacao {
+    0% {
+      transform: scale(1) rotateX(0);
+    }
+    50% {
+      transform: scale(0.5) rotateX(-180deg);
+    }
+    100% {
+      transform: scale(1) rotateX(-360deg);
+    }
+  }
